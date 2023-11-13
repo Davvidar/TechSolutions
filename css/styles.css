@@ -1,0 +1,15 @@
+.fondo{ 
+    background-image: url(retrato-mujer-trabajadora-servicio-al-cliente.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    
+    .form{padding: 30px 35px;
+        box-shadow: 0 0 20px black;
+        text-align: left;
+    margin-top: 4%;
+    background: rgba(5, 7, 12, 0.40);}
+     
+     .col-md-4{margin-top: 5%;
+               text-align: center;}
