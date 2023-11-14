@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container-fluid fondo">
+
+        <div class="container text-center">
+            <h1 class="font-weight-bold text-success">Contacte con nosotos.</h1>
+
+            <div class="container mt-5">
+                
+                <form class="p-4 mx-auto"
+                    style="box-shadow: 0 0 20px black; text-align: left; margin-top: 1%; background: rgba(5, 7, 12, 0.40); width: 31em;">
+                    <div class="form group mt-1" style="height: 26em; width: 28em;">
+                        <div class="form-floating">
+                            <input class="form-control mt-3" type="number" id="campo_Telefono"
+                                placeholder="Escribe tu teléfono">
+                            <label class="form-label" for="campo_Telefono">Teléfono:</label>
+                        </div>
+
+                        <div class="form-floating">
+                            <input class="form-control mt-3" type="text" id="campo_nombre" placeholder="">
+                            <label class="form-label" for="campo_nombre">Nombre y Apellido:</label>
+                        </div>
+
+                        <div class="form-floating">
+                            <input class="form-control mt-3" type="email" id="campo_email" placeholder="">
+                            <label class="form-label" for="campo_mail">E-mail:</label>
+                        </div>
+
+                        <div class="form-floating">
+                            <textarea class="form-control mt-3" id="campo_mensaje" style="height: 115px;"></textarea>
+                            <label for="campo_mensaje" class="form-label">Mensaje:</label>
+                        </div>
+
+                        <div class="check d-flex justify-content-center">
+                            <div class="form-check mt-2">
+                                <input class="form-check-input" id="campo_check" type="checkbox">
+                                <label for="checkterms" class="form-check-label">
+                                    <p class="text-white">He leído y acepto la <u>política de privacidad.</u></p>
+                                </label>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 offset-md-3 text-center">
+                            <button type="submit" class="btn btn-success">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
