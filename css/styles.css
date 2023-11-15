@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
 .fondo{
     height: 100vh;
     background-image: url(../img/retrato-mujer-trabajadora-servicio-al-cliente.jpg);
