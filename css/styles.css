@@ -1,14 +1,17 @@
 body {
   font-family: "Ubuntu", sans-serif;
 }
-.fondo {
-  height: 28vh;
-  margin-top: 12vh;
-  margin-bottom: 6vh;
-  background-image: url(../img/fondo-mujer.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.fondo{
+   height: 95vh;
+    background-image: url(../img/retrato-mujer-trabajadora-servicio-al-cliente.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    }
+.img-fluid {
+  min-width: 100%;
+  min-height: 100%;
 }
 
 h5 {
@@ -25,6 +28,4 @@ h3 {
 .textsuccess {
   color: #5f8e89;
 }
-nav {
-  opacity: 0.6;
-}
+
