@@ -14,15 +14,6 @@ body {
   min-height: 100%;
 }
 
-h1 {
-  padding-top: 25vh;
-}
-
-h2 {
-
-  margin-bottom: 20vh
-}
-
 h5 {
   color: #8c908f;
 }
@@ -37,6 +28,4 @@ h3 {
 .textsuccess {
   color: #5f8e89;
 }
-nav {
-  opacity: 0.6;
-}
+
