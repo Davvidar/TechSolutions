@@ -1,31 +1,19 @@
 body {
   font-family: "Ubuntu", sans-serif;
 }
-.fondo{
-   height: 95vh;
-    background-image: url(../img/retrato-mujer-trabajadora-servicio-al-cliente.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8;
-    }
-.img-fluid {
-  min-width: 100%;
-  min-height: 100%;
+.fondo {
+  height: 95vh;
+  background-image: url(../img/retrato-mujer-trabajadora-servicio-al-cliente.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
 }
 
-h5 {
-  color: #8c908f;
-}
-h3 {
-  color: #5f8e89;
-  font-size: 1.3rem;
-}
 .img-fluid {
   min-width: 100%;
   max-height: 100%;
 }
-.textsuccess {
-  color: #5f8e89;
+nav {
+  opacity: 0.7;
 }
-
