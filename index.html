@@ -28,13 +28,13 @@
             <section class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link btn btn-light" href="#servicios">Servicios</a>
+                        <a class="nav-link btn btn-light text-success fw-bold" href="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-light" href="#nosotros">Nuestro equipo</a>
+                        <a class="nav-link btn btn-light text-success fw-bold" href="#nosotros">Nuestro equipo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-light" href="#contacto">Contacto</a>
+                        <a class="nav-link btn btn-light text-success fw-bold" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </section>
@@ -276,29 +276,29 @@
                     style="box-shadow: 0 0 20px black; text-align: left; margin-top: 1%; background: rgba(5, 7, 12, 0.40);">
                     <div class="form-group mt-1">
                         <div class="form-floating">
-                            <input class="form-control mt-3" type="number" id="campo_Telefono"
+                            <input class="form-control mt-3" type="number" id="campo_Telefono" required
                                 placeholder="Escribe tu teléfono">
                             <label class="form-label" for="campo_Telefono">Teléfono:</label>
                         </div>
 
                         <div class="form-floating">
-                            <input class="form-control mt-3" type="text" id="campo_nombre" placeholder="">
+                            <input class="form-control mt-3" type="text" id="campo_nombre" placeholder="" required>
                             <label class="form-label" for="campo_nombre">Nombre y Apellido:</label>
                         </div>
 
                         <div class="form-floating">
-                            <input class="form-control mt-3" type="email" id="campo_email" placeholder="">
-                            <label class="form-label" for="campo_mail">E-mail:</label>
+                            <input class="form-control mt-3" type="email" id="campo_email" required placeholder="">
+                            <label class="form-label" for="campo_mail" >E-mail:</label>
                         </div>
 
                         <div class="form-floating">
                             <textarea class="form-control mt-3" id="campo_mensaje" style="height:120px;"></textarea>
-                            <label for="campo_mensaje" class="form-label">Mensaje:</label>
+                            <label for="campo_mensaje" class="form-label" required>Mensaje:</label>
                         </div>
 
                         <div class="check d-flex justify-content-center">
                             <div class="form-check mt-2">
-                                <input class="form-check-input" id="campo_check" type="checkbox">
+                                <input class="form-check-input" id="campo_check" type="checkbox" required>
                                 <label for="checkterms" class="form-check-label">
                                     <p class="text-white">He leído y acepto la <u>política de privacidad.</u>
                                     </p>
